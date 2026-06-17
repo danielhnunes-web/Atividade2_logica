@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Habitantes</title>
+
+    <script src="js/questao5.js"></script>
+</head>
+<body>
+    
+    <h2>Pesquisa de Habitantes</h2>
+
+    Idade:
+    <input type="number" id="idade">
+    <br><br>
+
+    sexo:
+    <select id="sexo">
+        <option value="M">Masculino</option>
+        <option value="F">Feminino</option>
+    </select>
+    <br><br>
+
+    Renda:
+    <input type="number" id="renda">
+    <br><br>
+
+    <button onclick="adicionarPessoa()">Adicionar pessoa</button>
+    <button onclick="calcular()">Calcular pesquisa</button>
+
+    <h3 id="resultado"></h3>
+    
+</body>
+</html>
